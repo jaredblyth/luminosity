@@ -1,12 +1,17 @@
 {
   "name": "luminosity",
-  "version": "1.0.4",
   "description": "Determines whether text should be black or white depending on the background colour",
   "main": "luminosity",
+  "authors": [
+    "Jared Blyth"
+  ],
+  "license": "ISC",
   "keywords": [
     "jquery-plugin",
     "ecosystem:jquery"
   ],
-  "author": "Jared Blyth",
-  "license": "ISC"
+  "moduleType": [
+    "es6"
+  ],
+  "homepage": "https://github.com/jaredblyth/luminosity"
 }
