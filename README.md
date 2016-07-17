@@ -16,4 +16,4 @@ For example:
 
 <em>$().('#FF0000');</em>
 
-This HEX colour (red) will return '#000'
+This HEX colour (red) will return '#fff'
