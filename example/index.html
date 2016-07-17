@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+      
+  <script src="jquery.js"></script>
+  <script src="luminosity.js"></script>
+  
+</head>
+
+<body>
+  
+  
+  <p>Enter a HEX colour in the box below and click the GO button to determine whether the text should be black ('#000') or white ('#fff').</p>
+    
+    <div id="colourBlock" style="background-color:#000000;color:#ffffff;width:200px;padding:10px;margin-bottom:10px;">#fff</div>
+    
+    <input id="colour" value="#ffffff" />
+    
+    <button onclick="getColourLuminosity()">GO</button>
+    
+    <script>
+
+        function getColourLuminosity() {
+            
+            var colour = $('#colour').val();
+            
+            var luminosity = $().luminosity(colour);
+            
+            $('#colourBlock').css('background-color',colour).css('color',luminosity);
+            
+        };
+
+    </script>
+  
+</body>
+</html>
