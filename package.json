@@ -1,6 +1,6 @@
 {
   "name": "luminosity",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Determines whether text should be black or white depending on the background colour",
   "main": "luminosity",
   "scripts": {

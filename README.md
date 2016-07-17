@@ -17,3 +17,5 @@ For example:
 <em>$().('#FF0000');</em>
 
 This HEX colour (red) will return '#fff'
+
+For a working example, please <a href="http://jaredblyth.com/demos/jquery/luminosity" target="_blank">visit my demo page.</a>
